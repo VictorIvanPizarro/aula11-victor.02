@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Página Principal</title>
+<link href="css/estilo.css" rel="Stylesheet">
+</head>
+<body>
+<header id="cabecera">
+	<h1>La web de las plantas</h1>
+	<img src="imagenes/planta.jpg">
+</header>
+<section id="contenido">
+<h2>¿Qué son las plantas?</h2>
+<p>Las plantas son seres vivos que producen su propio alimento mediante el proceso de la fotosíntesis. Ellas captan la energía de la luz del sol a través de la clorofila y convierten el dioxido de carbono y el agua en azúcares que utilizan como fuente de energía.</p>
+<h3>Partes de una planta:</h3>
+	<table>
+		<tr>
+			<td>Raíz</td>
+			<td>Su función es fijar a la planta.Mediante ella las plantas obtienen nutrientes del suelo.</td>
+		</tr>
+		<tr>
+			<td>Tallo</td>
+			<td>Es el que da soporte a la planta; algunos tallos son delgados y flexibles, otros,como los de los árboles, son leñosos y duros.</td>
+		</tr>
+		<tr>
+			<td>Hoja</td>
+			<td>Es la estructura donde se realiza la fotosíntesis y la respiración.</td>
+		</tr>
+		<tr>
+			<td>Flor</td>
+			<td>Es el órgano reproductor. En su interior posee todos los organos que necesita para fabricar el fruto y la semilla.</td>
+		</tr>
+	</table>
+	<form action="proceso.php" method="get">
+		<fieldset>
+			<legend>Danos tu opinión:</legend>
+		<p>
+			<label for="edad">¿Que edad tienes?</label>
+			<input type="text" name="edad">
+		</p>
+   		<p>
+   		<label for="información">¿Qué te ha parecido esta información?</label>
+		<select name="información">
+  			<option value="mucho">Mucho</option>
+  			<option value="bastante">Bastante</option>
+  			<option value="normal">Normal</option>
+  			<option value="poco">Poco</option>
+  			<option value="nada">Nada</option>
+		</select>
+		</p>
+		<input type="submit" value="Enviar">
+		</fieldset>
+	</form>
+</section>
+<footer>
+	<p><h1>Fin de la evidencia final</h1></p>
+</footer>
+</body>
+</html>
